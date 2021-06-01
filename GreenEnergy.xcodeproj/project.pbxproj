@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0406B7CE25FE55E700A35747 /* LineChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406B7CD25FE55E700A35747 /* LineChartVC.swift */; };
+		0406B7D125FE560E00A35747 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406B7D025FE560E00A35747 /* LineView.swift */; };
+		042A91E52610D86B00712302 /* CalculateSystemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A91E42610D86B00712302 /* CalculateSystemTableViewCell.swift */; };
+		043246F426076F4600882B0D /* GadgetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043246F326076F4600882B0D /* GadgetTableViewCell.swift */; };
+		043246F92607776800882B0D /* GadgetTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043246F82607776800882B0D /* GadgetTableVC.swift */; };
+		043246FE2607847600882B0D /* Gadget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043246FD2607847600882B0D /* Gadget.swift */; };
+		043247012607BE8600882B0D /* DayPowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043247002607BE8600882B0D /* DayPowerTableViewCell.swift */; };
+		045FC85D266268E10074B558 /* GEButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FC85C266268E10074B558 /* GEButton.swift */; };
+		045FC860266271980074B558 /* PriceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FC85F266271980074B558 /* PriceVC.swift */; };
+		045FC8642662A2710074B558 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FC8632662A2710074B558 /* PresentationController.swift */; };
+		045FC8672662A2B30074B558 /* TipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FC8662662A2B30074B558 /* TipsVC.swift */; };
 		04A4BD1C25FE515D00EE050A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4BD1B25FE515D00EE050A /* AppDelegate.swift */; };
 		04A4BD1E25FE515D00EE050A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4BD1D25FE515D00EE050A /* SceneDelegate.swift */; };
 		04A4BD2025FE515D00EE050A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4BD1F25FE515D00EE050A /* ViewController.swift */; };
-		04A4BD2325FE515D00EE050A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4BD2125FE515D00EE050A /* Main.storyboard */; };
 		04A4BD2525FE516000EE050A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A4BD2425FE516000EE050A /* Assets.xcassets */; };
 		04A4BD2825FE516000EE050A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4BD2625FE516000EE050A /* LaunchScreen.storyboard */; };
+		04C7803926501A7300981A99 /* MaterialType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7803826501A7300981A99 /* MaterialType.swift */; };
+		04D85B0B2624DA9300D65ED1 /* SolarEnergyUsageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D85B0A2624DA9300D65ED1 /* SolarEnergyUsageVC.swift */; };
+		04D85B112624DE4900D65ED1 /* GETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D85B102624DE4900D65ED1 /* GETextField.swift */; };
+		04D85B142624DEE900D65ED1 /* GEPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D85B132624DEE900D65ED1 /* GEPickerView.swift */; };
+		04D85B182624E04E00D65ED1 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D85B172624E04E00D65ED1 /* UIHelper.swift */; };
+		04D85B1B2624E11500D65ED1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D85B1A2624E11500D65ED1 /* Location.swift */; };
+		975695A1D06B84637ED531E7 /* Pods_GreenEnergy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBB2BE81882139405B83C55 /* Pods_GreenEnergy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0406B7CD25FE55E700A35747 /* LineChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartVC.swift; sourceTree = "<group>"; };
+		0406B7D025FE560E00A35747 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		042A91E42610D86B00712302 /* CalculateSystemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateSystemTableViewCell.swift; sourceTree = "<group>"; };
+		043246F326076F4600882B0D /* GadgetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadgetTableViewCell.swift; sourceTree = "<group>"; };
+		043246F82607776800882B0D /* GadgetTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GadgetTableVC.swift; sourceTree = "<group>"; };
+		043246FD2607847600882B0D /* Gadget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gadget.swift; sourceTree = "<group>"; };
+		043247002607BE8600882B0D /* DayPowerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPowerTableViewCell.swift; sourceTree = "<group>"; };
+		045FC85C266268E10074B558 /* GEButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEButton.swift; sourceTree = "<group>"; };
+		045FC85F266271980074B558 /* PriceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceVC.swift; sourceTree = "<group>"; };
+		045FC8632662A2710074B558 /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		045FC8662662A2B30074B558 /* TipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsVC.swift; sourceTree = "<group>"; };
 		04A4BD1825FE515D00EE050A /* GreenEnergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenEnergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A4BD1B25FE515D00EE050A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A4BD1D25FE515D00EE050A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04A4BD1F25FE515D00EE050A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04A4BD2225FE515D00EE050A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A4BD2425FE516000EE050A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A4BD2725FE516000EE050A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A4BD2925FE516000EE050A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C7803826501A7300981A99 /* MaterialType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialType.swift; sourceTree = "<group>"; };
+		04D85B0A2624DA9300D65ED1 /* SolarEnergyUsageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarEnergyUsageVC.swift; sourceTree = "<group>"; };
+		04D85B102624DE4900D65ED1 /* GETextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETextField.swift; sourceTree = "<group>"; };
+		04D85B132624DEE900D65ED1 /* GEPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEPickerView.swift; sourceTree = "<group>"; };
+		04D85B172624E04E00D65ED1 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		04D85B1A2624E11500D65ED1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2EB598DB67E7AD0F51AF31A5 /* Pods-GreenEnergy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenEnergy.debug.xcconfig"; path = "Target Support Files/Pods-GreenEnergy/Pods-GreenEnergy.debug.xcconfig"; sourceTree = "<group>"; };
+		6CE8775EF5011F42C3E2CBF4 /* Pods-GreenEnergy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenEnergy.release.xcconfig"; path = "Target Support Files/Pods-GreenEnergy/Pods-GreenEnergy.release.xcconfig"; sourceTree = "<group>"; };
+		DEBB2BE81882139405B83C55 /* Pods_GreenEnergy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenEnergy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975695A1D06B84637ED531E7 /* Pods_GreenEnergy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043246F226076EEC00882B0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043246F326076F4600882B0D /* GadgetTableViewCell.swift */,
+				043247002607BE8600882B0D /* DayPowerTableViewCell.swift */,
+				042A91E42610D86B00712302 /* CalculateSystemTableViewCell.swift */,
+				04D85B102624DE4900D65ED1 /* GETextField.swift */,
+				04D85B132624DEE900D65ED1 /* GEPickerView.swift */,
+				045FC85C266268E10074B558 /* GEButton.swift */,
+				045FC8632662A2710074B558 /* PresentationController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		043246F72607773A00882B0D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				043246F82607776800882B0D /* GadgetTableVC.swift */,
+				04D85B0A2624DA9300D65ED1 /* SolarEnergyUsageVC.swift */,
+				045FC85F266271980074B558 /* PriceVC.swift */,
+				045FC8662662A2B30074B558 /* TipsVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		043246FC2607846000882B0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				043246FD2607847600882B0D /* Gadget.swift */,
+				04D85B1A2624E11500D65ED1 /* Location.swift */,
+				04C7803826501A7300981A99 /* MaterialType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		04A4BD0F25FE515D00EE050A = {
 			isa = PBXGroup;
 			children = (
 				04A4BD1A25FE515D00EE050A /* GreenEnergy */,
 				04A4BD1925FE515D00EE050A /* Products */,
+				F3D436C2075F91CA526D60D6 /* Pods */,
+				73E9AEC68DAEF82BD7926C07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +130,45 @@
 		04A4BD1A25FE515D00EE050A /* GreenEnergy */ = {
 			isa = PBXGroup;
 			children = (
+				04D85B162624E04000D65ED1 /* Utils */,
+				043246FC2607846000882B0D /* Models */,
+				043246F72607773A00882B0D /* ViewControllers */,
+				043246F226076EEC00882B0D /* Views */,
 				04A4BD1B25FE515D00EE050A /* AppDelegate.swift */,
 				04A4BD1D25FE515D00EE050A /* SceneDelegate.swift */,
 				04A4BD1F25FE515D00EE050A /* ViewController.swift */,
-				04A4BD2125FE515D00EE050A /* Main.storyboard */,
 				04A4BD2425FE516000EE050A /* Assets.xcassets */,
 				04A4BD2625FE516000EE050A /* LaunchScreen.storyboard */,
 				04A4BD2925FE516000EE050A /* Info.plist */,
+				0406B7CD25FE55E700A35747 /* LineChartVC.swift */,
+				0406B7D025FE560E00A35747 /* LineView.swift */,
 			);
 			path = GreenEnergy;
+			sourceTree = "<group>";
+		};
+		04D85B162624E04000D65ED1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04D85B172624E04E00D65ED1 /* UIHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		73E9AEC68DAEF82BD7926C07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEBB2BE81882139405B83C55 /* Pods_GreenEnergy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3D436C2075F91CA526D60D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EB598DB67E7AD0F51AF31A5 /* Pods-GreenEnergy.debug.xcconfig */,
+				6CE8775EF5011F42C3E2CBF4 /* Pods-GreenEnergy.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A4BD2C25FE516000EE050A /* Build configuration list for PBXNativeTarget "GreenEnergy" */;
 			buildPhases = (
+				F538F50F288D26CA185F1AA8 /* [CP] Check Pods Manifest.lock */,
 				04A4BD1425FE515D00EE050A /* Sources */,
 				04A4BD1525FE515D00EE050A /* Frameworks */,
 				04A4BD1625FE515D00EE050A /* Resources */,
+				1B18A81355475B74C7231AE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +232,84 @@
 			files = (
 				04A4BD2825FE516000EE050A /* LaunchScreen.storyboard in Resources */,
 				04A4BD2525FE516000EE050A /* Assets.xcassets in Resources */,
-				04A4BD2325FE515D00EE050A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B18A81355475B74C7231AE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenEnergy/Pods-GreenEnergy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenEnergy/Pods-GreenEnergy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenEnergy/Pods-GreenEnergy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F538F50F288D26CA185F1AA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreenEnergy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04A4BD1425FE515D00EE050A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D85B142624DEE900D65ED1 /* GEPickerView.swift in Sources */,
+				04C7803926501A7300981A99 /* MaterialType.swift in Sources */,
+				04D85B0B2624DA9300D65ED1 /* SolarEnergyUsageVC.swift in Sources */,
+				04D85B112624DE4900D65ED1 /* GETextField.swift in Sources */,
+				045FC8642662A2710074B558 /* PresentationController.swift in Sources */,
 				04A4BD2025FE515D00EE050A /* ViewController.swift in Sources */,
+				042A91E52610D86B00712302 /* CalculateSystemTableViewCell.swift in Sources */,
 				04A4BD1C25FE515D00EE050A /* AppDelegate.swift in Sources */,
+				045FC85D266268E10074B558 /* GEButton.swift in Sources */,
 				04A4BD1E25FE515D00EE050A /* SceneDelegate.swift in Sources */,
+				04D85B1B2624E11500D65ED1 /* Location.swift in Sources */,
+				045FC860266271980074B558 /* PriceVC.swift in Sources */,
+				045FC8672662A2B30074B558 /* TipsVC.swift in Sources */,
+				043246FE2607847600882B0D /* Gadget.swift in Sources */,
+				043246F92607776800882B0D /* GadgetTableVC.swift in Sources */,
+				0406B7D125FE560E00A35747 /* LineView.swift in Sources */,
+				0406B7CE25FE55E700A35747 /* LineChartVC.swift in Sources */,
+				043246F426076F4600882B0D /* GadgetTableViewCell.swift in Sources */,
+				043247012607BE8600882B0D /* DayPowerTableViewCell.swift in Sources */,
+				04D85B182624E04E00D65ED1 /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04A4BD2125FE515D00EE050A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04A4BD2225FE515D00EE050A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04A4BD2625FE516000EE050A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +439,7 @@
 		};
 		04A4BD2D25FE516000EE050A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB598DB67E7AD0F51AF31A5 /* Pods-GreenEnergy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +459,7 @@
 		};
 		04A4BD2E25FE516000EE050A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE8775EF5011F42C3E2CBF4 /* Pods-GreenEnergy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
